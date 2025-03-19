@@ -315,7 +315,6 @@ h2 {
     overflow: hidden; /* Garante que o texto não ultrapasse os limites */
     text-overflow: ellipsis; /* Adiciona "..." se o texto for maior que o limite */
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Limita o texto a 3 linhas */
     -webkit-box-orient: vertical; /* Direção do texto */
     line-height: 1.5; /* Ajusta o espaçamento entre as linhas */
     height: 100px; /* Ajusta a altura para dar mais espaço ao texto */
