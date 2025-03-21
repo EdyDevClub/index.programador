@@ -44,6 +44,8 @@ body {
     position: relative;
 }
 
+
+
 /* Cabeçalho fixo */
 header {
     width: 100%;
@@ -89,6 +91,8 @@ header {
     background-color: #792DBE;
 }
 
+
+
 /* Ícone do menu hambúrguer */
 .menu-toggle {
     font-size: 30px;
@@ -99,6 +103,8 @@ header {
     right: 20px;
     z-index: 1100;
 }
+
+
 #home {
     display: flex;
     flex-direction: column;
@@ -107,6 +113,7 @@ header {
     height: 100vh; /* Ocupa toda a altura da tela */
     text-align: center; /* Centraliza o texto */
 }
+
 
 .botoes {
     display: flex;
@@ -517,7 +524,6 @@ footer {
     }
 }
 
-
 /* Animação de digitação letra por letra */
 .typing-effect {
     font-size: 36px;
@@ -540,6 +546,7 @@ footer {
     }
 }
 
+
 /* Efeito de linha piscando no final */
 @keyframes blink {
     0% {
@@ -553,4 +560,16 @@ footer {
     }
 }
 
+
+/*SESSÃO DESTOP FINALIZADA*/
+  
+/* Definir um breakpoint para telas com largura menor que 768px */
+@media screen and (max-width: 900px) {
+    /* Aplicar estilos diferentes para telas menores */
+
+
+  }
+  
+  
+  
 
